@@ -11,7 +11,15 @@ double ScalarProduce(int N, double *lambda, double *Y_m, double *Y_n)
     double produce = .0;
     for (int i = 0; i < N + 1; i++)
     {
-        produce += lambda[i] * Y_m[i] * Y_n[i];
+        if (!isnan(lambda[i]) &&
+            !isnan(Y_m[i]) &&
+            !isnan(Y_n[i]) &&
+            !isinf(lambda[i]) &&
+            !isinf(Y_m[i]) &&
+            !isinf(Y_n[i]))
+        {
+            produce += lambda[i] * Y_m[i] * Y_n[i];
+        }
     }
 
     return produce;
