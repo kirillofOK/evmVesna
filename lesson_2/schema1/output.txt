@@ -1,11 +1,11 @@
 Max abs where n = 1 and A = 1 is  0.0191492
 Max abs where n = 1 and A = 10 is  0.367879
-Max abs where n = 1 and A = 100 is  3.8742e+08
-Max abs where n = 1 and A = 1000 is  9.13517e+17
+Max abs where n = 1 and A = 100 is  81
+Max abs where n = 1 and A = 1000 is  99
 Max abs where n = 2 and A = 1 is  0.00184705
 Max abs where n = 2 and A = 10 is  0.019201
 Max abs where n = 2 and A = 100 is  0.367879
-Max abs where n = 2 and A = 1000 is  2.95127e+94
+Max abs where n = 2 and A = 1000 is  81
 Max abs where n = 3 and A = 1 is  0.000184016
 Max abs where n = 3 and A = 10 is  0.0018471
 Max abs where n = 3 and A = 100 is  0.019201

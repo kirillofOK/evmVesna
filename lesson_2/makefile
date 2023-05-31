@@ -1,6 +1,6 @@
 CC = g++
 CFLAGS = -Wall
-SCHEMAS = schema1 schema2 schema3 schema4 schema5 schema6
+SCHEMAS = schema_1, schema_2, schema_3, schema_4, schema_5, schema_6
 
 schema_1: 
 	$(CC) $(CFLAGS) -o schema_1 ./schema1/main1.cpp
